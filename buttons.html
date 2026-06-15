@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <head>
-    <button> SUBSCRIBE</button>
+    <button class="subscribe-button"> SUBSCRIBE</button>
+    <button class="join-button"> JOIN</button>
+    <button class="tweet-button"> Tweet</button>
 </head>
 
 
 <style>
-    button {
-        background-color:red;
+   .subscribe-button{ 
+        background-color:rgb(176, 25, 25);
         color:white;
+        border: none;
+        height: 36px;
+        width: 105px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 10px;
 
+    }
+    .join-button{
+        background-color:white;
+        color:  rgba(16, 113, 173, 0.947);
+        border-color: rgba(41,118,211);
+        border-width: 1px;  /* Adjust the border width as needed */
+        border-style: solid; /* Set the border style to solid */
+        height: 36px;
+        width: 55px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-right: 10px;
+    
+    }
+    .tweet-button{
+        background-color: rgb(51, 154, 219);
+        color:white;
+        font-weight: bold;
+        border: none;
+        height: 36px;
+        width: 65px;
+        border-radius: 16px;
+        cursor: pointer;
     }
     
 </style>
